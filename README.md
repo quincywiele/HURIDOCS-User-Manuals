@@ -30,25 +30,15 @@ Create templates
 Templates are the foundation of your Uwazi platform as they allow you to attribute consistent, structured metadata to your documents and entities. Within each template, you can assign a variety of properties like:
 
  -Text
-
  -Numerics
-
  -Select (needs thesaurus)
-
  -Multi-select (needs thesaurus)
-
  -Date, date range, multi date, multi date range
-
  -Rich text
-
  -Geo-location
-
  -External links
-
  -Media (for video and audio embedding or self hosting)
-
  -Relationship - allow you to use items from another template as thesaurus items
-
 ## To create a template:
 
 1.Click on “settings”
