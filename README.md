@@ -1,3 +1,4 @@
+![](images/uwazi.png)
 # HURIDOCS-User-Manuals
 Uwazi Guide Manual information
 Uwazi User Guide 2.0
