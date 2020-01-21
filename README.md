@@ -1,7 +1,7 @@
 ![](uwazi.png)
 # HURIDOCS-User-Manuals
 Uwazi Guide Manual information
-Uwazi User Guide 2.0
+
 
 # Introduction to Uwazi
 To manage records and documents, most organizations today use folders or categories on platforms like DropBox, One Drive and Google Drive so that staff can access them later.  Although safe and effective, these platforms simply provide a safe space for these documents and provide no connections or analysis.
@@ -10,6 +10,7 @@ What if organising documents could make their contents come alive? Uwazi goes be
 
 Uwazi is built to do exactly this – highlight and organise the important information in each document, and create relationships between documents. Uwazi illuminates the bigger picture that human rights document collections uncover.
 # Table of Content
+
 
 # Installation Guide
 
