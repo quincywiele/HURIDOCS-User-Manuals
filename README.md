@@ -33,31 +33,31 @@ As you can notice, you do not need to create visitors. This is the basic role wh
 But if you want to allow some people to perform specific actions into your collection, you can create Users that will allow them login the same way you login into your admin account.
 To create a new user, you need to go to Settings and click on the Users section. It will appear a list with all current users inside your collection. You will be able to create new ones, edit or delete them if necessary.
 A user has three fields to be completed:
-# Bullet 1 Username
-# Bullet 2 E-Mail
-# Bullet 3 Role (Editor or Admin).
+* Username
+* E-Mail
+* (Editor or Admin).
 We will send an email to that person with a link to set the user's password.
 Note: If you are hosting your own Uwazi or if you are accessing the instance as localhost, e.g. http://localhost:3000/settings to send the invitation, the email will be sent to the  address of the instance URL.
 If you have a proper domain, create the account from that url, for instance: http://yourdoumain.com/settings. This will send a 'yourdomain.com' URL.
 If you are using a local IP, then use something like http://192.168.xx.yy/settings for it to send with that address.
 ### Manage user permissions 
-Any visitor to an Uwazi instance is able to:
-View all the documents, entities, properties, connections, etc in Uwazi (but cannot edit, create, or delete anything)
-User the search and filter functionalities
-A user with the role of editor is able to:
-Do all the things that a visitor can do
-Upload documents and create entities
-Delete documents and entities
-Organize the collection, including: apply properties, create connections and references, create a table of contents
-Add/edit translations
-A user with the role of administrator is able to:
-Do all the things that an editor can do
-Manage settings
-Configure the information architecture, including: create document and entity types/templates, create dictionaries, name connections
-Configure filters
-Add and delete users
-Edit your site information
-Change the name of your collection
+* Any visitor to an Uwazi instance is able to:
+* View all the documents, entities, properties, connections, etc in Uwazi (but cannot edit, create, or delete anything)
+* User the search and filter functionalities
+### A user with the role of editor is able to:
+* Do all the things that a visitor can do
+* Upload documents and create entities
+* Delete documents and entities
+* Organize the collection, including: apply properties, create connections and references, create a table of contents
+* Add/edit translations
+### A user with the role of administrator is able to:
+* Do all the things that an editor can do
+* Manage settings
+* Configure the information architecture, including: create document and entity types/templates, create dictionaries, name connections
+* Configure filters
+* Add and delete users
+* Edit your site information
+* Change the name of your collection
 Click on “settings”
 Click on “collection”
 Change the name of your collection
@@ -100,16 +100,16 @@ Public form configuration
 ##Build Your Information Architecture
 ###Create templates
 Templates are the foundation of your Uwazi platform as they allow you to attribute consistent, structured metadata to your documents and entities. Within each template, you can assign a variety of properties like:
-* Bullet 1 Text
-* Buller 2 Numerics
-* Bullet 3 Select (needs thesaurus)
-* Bullet 4 Multi-select (needs thesaurus)
-* Bullet 5 Date, date range, multi date, multi date range
-* Bullet 6 Rich text
-* Bullet 7 Geo-location
-* Bullet 8 External links
-* Bullet 9 Media (for video and audio embedding or self hosting)
-* Bullet 10 Relationship - allow you to use items from another template as thesaurus items
+* Text
+* Numerics
+* Select (needs thesaurus)
+* Multi-select (needs thesaurus)
+* Date, date range, multi date, multi date range
+* Rich text
+* Geo-location
+* External links
+* Media (for video and audio embedding or self hosting)
+* Relationship - allow you to use items from another template as thesaurus items
 
 To create a template:
 Click on “settings”
