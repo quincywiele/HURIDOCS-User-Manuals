@@ -10,36 +10,37 @@ Uwazi is built to do exactly this – highlight and organise the important infor
 # Table of Content
 
 # Installation Guide
-Edit account information
+
+ 
+## Usage
+### Edit account information
 
 To edit account information like:
-Email address
-Password
-Log-out
+1. Email address
+2. Password
+3. Log-out
 
 Click on settings
 Click on Account 
 
 
-Enable two-factor authentication
+### Enable two-factor authentication
 
-Add new users
+### Add new users
 If you work in collaboration with other people, Uwazi allows you to create users with specific permissions to help you update your collection of documents.
 
 As you can notice, you do not need to create visitors. This is the basic role when anyone visits your collection!
 But if you want to allow some people to perform specific actions into your collection, you can create Users that will allow them login the same way you login into your admin account.
 To create a new user, you need to go to Settings and click on the Users section. It will appear a list with all current users inside your collection. You will be able to create new ones, edit or delete them if necessary.
 A user has three fields to be completed:
-Username
-E-Mail
-Role (Editor or Admin).
-
- 
+# Bullet 1 Username
+# Bullet 2 E-Mail
+# Bullet 3 Role (Editor or Admin).
 We will send an email to that person with a link to set the user's password.
 Note: If you are hosting your own Uwazi or if you are accessing the instance as localhost, e.g. http://localhost:3000/settings to send the invitation, the email will be sent to the  address of the instance URL.
 If you have a proper domain, create the account from that url, for instance: http://yourdoumain.com/settings. This will send a 'yourdomain.com' URL.
 If you are using a local IP, then use something like http://192.168.xx.yy/settings for it to send with that address.
-Manage user permissions 
+### Manage user permissions 
 Any visitor to an Uwazi instance is able to:
 View all the documents, entities, properties, connections, etc in Uwazi (but cannot edit, create, or delete anything)
 User the search and filter functionalities
@@ -64,7 +65,7 @@ Save
 
 
 
-Make your collection private
+### Make your collection private
 
 If you are handling sensitive information or you just want your collection to be accessible only via login, you can configure Uwazi to do so. 
 Click on “settings”
@@ -88,27 +89,27 @@ Find your unique ID (for example, if you want to use Google Analytics ID to trac
 Add your to Uwazi under Settings > then click Collection.
 
 
-Mailer configuration
+### Mailer configuration
 This is a JSON configuration object that should match the options values required by Nodemailer, as explained here.
 This setting takes precedence over all other mailer configuration. If left blank, then the configuration file in /api/config/mailer.js will be used.
 Public form configuration
 
-Allow cookies on your site
+### Allow cookies on your site
  
 
-Build Your Information Architecture
-Create templates
+##Build Your Information Architecture
+###Create templates
 Templates are the foundation of your Uwazi platform as they allow you to attribute consistent, structured metadata to your documents and entities. Within each template, you can assign a variety of properties like:
-Text
-Numerics
-Select (needs thesaurus)
-Multi-select (needs thesaurus)
-Date, date range, multi date, multi date range
-Rich text
-Geo-location
-External links
-Media (for video and audio embedding or self hosting)
-Relationship - allow you to use items from another template as thesaurus items
+* Bullet 1 Text
+* Buller 2 Numerics
+* Bullet 3 Select (needs thesaurus)
+* Bullet 4 Multi-select (needs thesaurus)
+* Bullet 5 Date, date range, multi date, multi date range
+* Bullet 6 Rich text
+* Bullet 7 Geo-location
+* Bullet 8 External links
+* Bullet 9 Media (for video and audio embedding or self hosting)
+* Bullet 10 Relationship - allow you to use items from another template as thesaurus items
 
 To create a template:
 Click on “settings”
@@ -129,7 +130,7 @@ When you add a select or multi-select property to a type, you will see a field t
 
 
 
-Create thesauri
+### Create thesauri
 A thesaurus in Uwazi is a list of terms that you have referenced as properties when creating your entity types. 
 E.g: You may want to create a thesaurus for countries so you can refer to this list when you add the country property to your document template.  Using thesauri will make data entry and retrieval more precise, coherent and easy. 
 You can use the same thesauri across the templates by calling a thesaurus from a property, thus creating connections between different types of information by a common property. 
@@ -143,18 +144,18 @@ write the name of the thesaurus; e.g. Type of testimony
 click ‘save’ when finished. 
 
  
-Nested options in thesauri
+### Nested options in thesauri
 For big thesauri, grouping values in groups makes information more accessible. In the thesauri creation interface, there is a "Create group" at the bottom action buttons and some controls to move items around:
 
  
 Which gets render as a filter:
 
 
-Importing new thesauri from CSV files
+### Importing new thesauri from CSV files
 This feature allows you to import terminology lists in different languages from a CSV file into an Uwazi thesaurus. You can import data into a new or existing thesaurus.
  
 
-Preparing the CSV file
+### Preparing the CSV file
 The CSV file should have a separate column for each language you want to import, the language should be used as the name of the column. Each row contains a term and its translations in different languages.
 Here's a sample CSV file viewed as plain text:
 Here's a sample CSV file viewed as plain text:
@@ -165,7 +166,7 @@ Child,Enfant,Kind
  
 Here's the same file viewed in a spreadsheet program:
 
-Importing data into an existing thesaurus
+### Importing data into an existing thesaurus
 To import data from a thesaurus you have already created, first;
 go to " settings"
 click "thesauri"
@@ -182,7 +183,7 @@ When you click the button, you'll be prompted to select the csv button to import
  
 
 
-Create relationship types
+### Create relationship types
 Connections in Uwazi link two pieces of information in your collection. It could link a paragraph in one document to a separate document or a word to an entity. 
 
 To name your connections; 
@@ -203,3 +204,9 @@ Relationship fields will now behave as a regular multiselect while at the same t
 
 You can configure your relationship fields for existing sets of connections to be displayed as a multiselect field like this;
  these connections were added as they were signatories of a document.
+
+## Contributing
+
+## Credits
+
+## License
